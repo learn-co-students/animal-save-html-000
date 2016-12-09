@@ -19,4 +19,26 @@ html {
 }
 
 /* Write your solution here */
+@media only screen and (max-width: 1090px) {
+    #dolphin {
+      top: 250px;
+    }
+  }
 
+  @media only screen and (max-width: 642px) {
+      #dolphin {
+        top: 400px;
+      }
+    }
+
+
+
+  #dolphin {
+    border: solid white;
+
+    -webkit-transform: translate(100px) rotate(20deg);
+    -webkit-transform-origin: 0 -250px;
+
+    transform: translate(100px) rotate(20deg);
+    transform-origin: 0 -250px;
+  }
